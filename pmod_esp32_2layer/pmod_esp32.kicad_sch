@@ -782,182 +782,110 @@
 			)
 		)
 		(symbol "68001-204HLF:68001-204HLF"
-			(pin_names
-				(offset 1.016)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -2.54 5.842 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
 			(property "Value" "68001-204HLF"
-				(at -2.54 -10.16 0)
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "68001-204HLF:AMPHENOL_68001-204HLF"
+			(property "Footprint" "HDRV4W67P0X254_1X4_1016X241X858P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/68000.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "BergStik<sup>&reg;</sup>, Board to Board connector, Unshrouded vertical header, Through Hole, Single Row, , 4  Positions, 2.54 mm (0.100in) Pitch."
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "8.58"
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Mouser Part Number" ""
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "MF" "Amphenol"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" ""
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "11.43mm"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Amphenol Communications Solutions"
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "68001-204HLF"
+				(at 16.51 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/68001-204HLF/Amphenol/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "DG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/68001-204HLF/Amphenol/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "68001-204HLF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nConn; Rect; Header; Unshrouded; 4 Pos; 2.54mm Pitch; 1-Row; Thru-Hole; BergStik | Amphenol FCI (Amphenol CS) 68001-204HLF\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Amphenol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "68001-204HLF_0_0"
+			(symbol "68001-204HLF_1_1"
 				(rectangle
-					(start -3.81 -7.62)
-					(end 5.08 5.08)
+					(start 5.08 2.54)
+					(end 15.24 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -966,118 +894,74 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -3.175 -5.3975)
-					(end -1.5875 -4.7625)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 -2.8575)
-					(end -1.5875 -2.2225)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 -0.3175)
-					(end -1.5875 0.3175)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 2.2225)
-					(end -1.5875 2.8575)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(pin passive line
-					(at -7.62 2.54 0)
+					(at 0 0 0)
 					(length 5.08)
 					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -7.62 -2.54 0)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -7.62 -5.08 0)
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1664,7 +1548,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\nESP-WROOM-32 series Transceiver; 802.11 b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) Evaluation Board\n"
+			(property "Description_1" "\n                        \n                            ESP-WROOM-32 series Transceiver; 802.11 b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) Evaluation Board\n                        \n"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2433,7 +2317,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Harwin"
+			(property "Mouser Part Number" "855-M20-9740642"
 				(at 19.05 -494.92 0)
 				(effects
 					(font
@@ -2443,7 +2327,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "M20-9740642"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9740642?qs=ulE8k0yEMYbl5ooJFe5urw%3D%3D"
 				(at 19.05 -594.92 0)
 				(effects
 					(font
@@ -2453,7 +2337,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "855-M20-9740642"
+			(property "Manufacturer_Name" "Harwin"
 				(at 19.05 -694.92 0)
 				(effects
 					(font
@@ -2463,28 +2347,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9740642?qs=ulE8k0yEMYbl5ooJFe5urw%3D%3D"
+			(property "Manufacturer_Part_Number" "M20-9740642"
 				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 19.05 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 19.05 -994.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6289,7 +6153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS3A5018PW:SOP65P640X120-16N"
+		(property "Footprint" "TS3A5018PWR:SOP65P640X120-16N"
 			(at 227.33 50.8 0)
 			(effects
 				(font
@@ -6732,7 +6596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pdf.direnc.net/upload/20-pin-2x10-2-54mm-erkek-pin-header-tht-90c-datasheet.pdf"
+		(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-974.pdf"
 			(at 91.44 338.43 0)
 			(effects
 				(font
@@ -7548,7 +7412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "18±0.2mmx25.5±0.2mmx3.1±0.15mm"
+		(property "Package" "Module Espressif Systems"
 			(at 105.41 66.04 0)
 			(effects
 				(font
@@ -7558,7 +7422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.direnc.net/esp-wroom32-modul"
+		(property "Check_prices" "https://www.snapeda.com/parts/ESP-WROOM-32/Espressif+Systems/view-part/?ref=eda"
 			(at 105.41 66.04 0)
 			(effects
 				(font
@@ -7568,7 +7432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "125.56 TL"
+		(property "Price" "None"
 			(at 105.41 66.04 0)
 			(effects
 				(font
@@ -7598,7 +7462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "Availability" "Not in stock"
 			(at 105.41 66.04 0)
 			(effects
 				(font
@@ -7618,7 +7482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\nESP-WROOM-32 series Transceiver; 802.11 b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) Evaluation Board\n"
+		(property "Description_1" "\n                        \n                            ESP-WROOM-32 series Transceiver; 802.11 b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) Evaluation Board\n                        \n"
 			(at 105.41 66.04 0)
 			(effects
 				(font
@@ -8200,16 +8064,15 @@
 	)
 	(symbol
 		(lib_id "68001-204HLF:68001-204HLF")
-		(at 36.83 181.61 0)
+		(at 29.21 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e941dd29-b502-46e7-9802-9de088045d1e")
 		(property "Reference" "J1"
-			(at 43.18 181.6099 0)
+			(at 34.036 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +8081,7 @@
 			)
 		)
 		(property "Value" "4-Pin Male Header, Through Hole"
-			(at 43.18 184.1499 0)
+			(at 34.29 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8226,8 +8089,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "68001-204HLF:AMPHENOL_68001-204HLF"
-			(at 36.83 181.61 0)
+		(property "Footprint" "HDRV4W67P0X254_1X4_1016X241X858P"
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,8 +8099,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pdf.direnc.net/upload/5-pin-1x5-2-54mm-erkek-pin-header-tht-datasheet.pdf"
-			(at 36.83 181.61 0)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/68000.pdf"
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,8 +8108,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5-Pin Single Row Male Header, 2.54mm Pitch, Through-Hole Mount"
-			(at 36.83 181.61 0)
+		(property "Description" "BergStik<sup>&reg;</sup>, Board to Board connector, Unshrouded vertical header, Through Hole, Single Row, , 4  Positions, 2.54 mm (0.100in) Pitch."
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8255,7 +8118,7 @@
 			)
 		)
 		(property "MF" "Amphenol"
-			(at 36.83 181.61 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8265,7 +8128,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "11.43mm"
-			(at 36.83 181.61 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +8138,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 36.83 181.61 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,7 +8148,7 @@
 			)
 		)
 		(property "Price" "6.59 TL"
-			(at 36.83 181.61 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8295,7 +8158,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/68001-204HLF/Amphenol/view-part/?ref=eda"
-			(at 36.83 181.61 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +8168,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 36.83 181.61 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8315,7 +8178,7 @@
 			)
 		)
 		(property "PARTREV" "DG"
-			(at 36.83 181.61 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8188,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/68001-204HLF/Amphenol/view-part/?ref=snap"
-			(at 36.83 181.61 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8335,7 +8198,7 @@
 			)
 		)
 		(property "MP" "68001-204HLF"
-			(at 36.83 181.61 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +8208,7 @@
 			)
 		)
 		(property "Description_1" "\nConn; Rect; Header; Unshrouded; 4 Pos; 2.54mm Pitch; 1-Row; Thru-Hole; BergStik | Amphenol FCI (Amphenol CS) 68001-204HLF\n"
-			(at 36.83 181.61 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8355,7 +8218,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 36.83 181.61 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8365,7 +8228,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Connfly"
-			(at 36.83 181.61 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8375,11 +8238,61 @@
 			)
 		)
 		(property "PACKAGE" "1x4 Pin Header, 2.54mm, Male "
-			(at 36.83 181.61 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.58"
+			(at 45.72 573.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 45.72 673.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 45.72 773.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol Communications Solutions"
+			(at 45.72 873.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "68001-204HLF"
+			(at 45.72 973.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
