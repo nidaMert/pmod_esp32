@@ -1,0 +1,3 @@
+[submodule "Library/MyKicad_Library"]
+	path = Library/MyKicad_Library
+	url = https://gitlab.com/200207032_nidamert_muhtas1/mykicad_library.git
