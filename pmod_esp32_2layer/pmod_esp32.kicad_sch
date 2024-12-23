@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PMOD ESP32 PROJECT SCHEMATIC")
-		(date "2024-11-11")
-		(rev "0.2")
+		(date "2024-12-03")
+		(rev "0.3")
 	)
 	(lib_symbols
 		(symbol "Library:418121270802"
