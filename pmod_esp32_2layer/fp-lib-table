@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "C:/Users/nidamert/Documents/ehm/muhtas1/PMOD_ESP32_MUHTAS1/Library/MyKicad_Library/footprints/Library.pretty")(options "")(descr ""))
+)

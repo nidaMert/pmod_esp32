@@ -8062,6 +8062,7 @@
 		(property "Value" "TS3A5018PWR"
 			(at 6.885 -3.585 180)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "6f7e7520-ca1e-43a8-93ac-2e09de7fc17c")
 			(effects
 				(font
@@ -10688,6 +10689,15 @@
 		(uuid "00460407-5507-4069-a719-b0d95e900c72")
 	)
 	(via
+		(at 206.95 43.825)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "0104e054-1392-401a-a87c-22299ccbd73b")
+	)
+	(via
 		(at 237.25 51)
 		(size 0.6)
 		(drill 0.3)
@@ -11642,6 +11652,15 @@
 		(uuid "946f56ca-9510-4d34-b923-ea58f4b3abb8")
 	)
 	(via
+		(at 207.8 45.4)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "9561c040-c93f-43fe-8d68-c9c7bb360106")
+	)
+	(via
 		(at 196.45 50.2)
 		(size 0.6)
 		(drill 0.3)
@@ -11802,6 +11821,15 @@
 		(free yes)
 		(net 2)
 		(uuid "a802ee8d-353f-428b-8208-f6e3cab83a27")
+	)
+	(via
+		(at 207.825 44.575)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "a9a68139-0ee9-432d-bce3-6a481baca098")
 	)
 	(via
 		(at 199.15 53.15)

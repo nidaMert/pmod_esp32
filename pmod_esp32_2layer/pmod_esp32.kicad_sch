@@ -10,7 +10,7 @@
 		(rev "0.2")
 	)
 	(lib_symbols
-		(symbol "418121270802:418121270802"
+		(symbol "Library:418121270802"
 			(pin_names
 				(offset 1.016)
 			)
@@ -416,7 +416,7 @@
 				)
 			)
 		)
-		(symbol "430182050816:430182050816"
+		(symbol "Library:430182050816"
 			(pin_names
 				(offset 1.016)
 			)
@@ -781,7 +781,7 @@
 				)
 			)
 		)
-		(symbol "68001-204HLF:68001-204HLF"
+		(symbol "Library:68001-204HLF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -968,7 +968,7 @@
 				)
 			)
 		)
-		(symbol "Device:C_Small"
+		(symbol "Library:C_Small"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -1103,298 +1103,7 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "ESP-WROOM-32:ESP-WROOM-32"
+		(symbol "Library:ESP-WROOM-32"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2256,7 +1965,176 @@
 				)
 			)
 		)
-		(symbol "M20-9740642:M20-9740642"
+		(symbol "Library:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:M20-9740642"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2587,7 +2465,129 @@
 				)
 			)
 		)
-		(symbol "TS3A5018PWR:TS3A5018PWR"
+		(symbol "Library:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:TS3A5018PWR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -5352,7 +5352,7 @@
 		(uuid "fd5b9880-e34a-4e57-9107-92d5e3481666")
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Library:LED")
 		(at 203.2 105.41 270)
 		(mirror x)
 		(unit 1)
@@ -5449,7 +5449,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 53.34 156.21 270)
 		(mirror x)
 		(unit 1)
@@ -5546,7 +5546,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 58.42 160.02 270)
 		(mirror x)
 		(unit 1)
@@ -5643,7 +5643,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 64.77 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5740,7 +5740,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 52.07 143.51 270)
 		(mirror x)
 		(unit 1)
@@ -5837,7 +5837,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Library:C_Small")
 		(at 64.77 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5934,7 +5934,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Library:C_Small")
 		(at 73.66 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6031,7 +6031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 149.86 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6128,7 +6128,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TS3A5018PWR:TS3A5018PWR")
+		(lib_id "Library:TS3A5018PWR")
 		(at 227.33 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6369,7 +6369,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 153.67 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6464,7 +6464,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 149.86 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6561,7 +6561,7 @@
 		)
 	)
 	(symbol
-		(lib_id "M20-9740642:M20-9740642")
+		(lib_id "Library:M20-9740642")
 		(at 72.39 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6758,7 +6758,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Library:C_Small")
 		(at 255.27 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6827,7 +6827,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 218.44 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6924,7 +6924,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 143.51 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7021,7 +7021,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 111.76 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7117,7 +7117,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Library:LED")
 		(at 218.44 105.41 270)
 		(mirror x)
 		(unit 1)
@@ -7223,7 +7223,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 116.84 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7319,7 +7319,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESP-WROOM-32:ESP-WROOM-32")
+		(lib_id "Library:ESP-WROOM-32")
 		(at 105.41 66.04 0)
 		(mirror y)
 		(unit 1)
@@ -7625,7 +7625,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 57.15 148.59 270)
 		(mirror x)
 		(unit 1)
@@ -7722,7 +7722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "418121270802:418121270802")
+		(lib_id "Library:418121270802")
 		(at 157.48 91.44 270)
 		(mirror x)
 		(unit 1)
@@ -7966,7 +7966,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 203.2 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8063,7 +8063,7 @@
 		)
 	)
 	(symbol
-		(lib_id "68001-204HLF:68001-204HLF")
+		(lib_id "Library:68001-204HLF")
 		(at 29.21 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8318,7 +8318,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 115.57 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8414,7 +8414,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "Library:R_Small")
 		(at 110.49 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8510,7 +8510,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Library:C_Small")
 		(at 55.88 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8607,7 +8607,7 @@
 		)
 	)
 	(symbol
-		(lib_id "430182050816:430182050816")
+		(lib_id "Library:430182050816")
 		(at 35.56 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
