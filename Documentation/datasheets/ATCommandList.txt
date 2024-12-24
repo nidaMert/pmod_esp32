@@ -1,0 +1,65 @@
+---Basic AT Commands---
+AT						//Test AT startup
+AT+RST						//Restart a modüle
+AT+GMR						//Check version information
+
+---Wi-Fi AT Commands---
+AT+CWLAP					//List all available APs.
+AT+CWQAP					//Disconnect from an AP.
+AT+CWSTATE?					//Query the Wi-Fi state and Wi-Fi info
+						//current Wi-Fi state
+				  			0: ESP32 station has not started any Wi-Fi connection.
+				  			1: ESP32 station has connected to an AP, but does not get an IPv4 address yet.
+				  			2: ESP32 station has connected to an AP, and got an IPv4 address.
+				  			3: ESP32 station is in Wi-Fi connecting or reconnecting state.
+				  			4: ESP32 station is in Wi-Fi disconnected state.
+AT+CWMODE?					//Query the Wi-Fi mode of ESP32.
+						//<mode>
+				 			0: Null mode. Wi-Fi RF will be disabled. The ESP32 will automatically connect to an AP if the configuration to connect to the AP has already been saved in flash before.
+				  			1: Station mode.
+				  			2: SoftAP mode.
+				  			3: SoftAP+Station mode.
+AT+CWMODE=<mode>
+AT+CWJAP?					//Query the AP to which the ESP32 Station is already connected.
+AT+CWJAP=[<ssid>],[<pwd>]			//Connect an ESP32 station to a targeted AP.
+AT+CWJAP					//Connect an ESP32 station to a targeted AP with last Wi-Fi configuration.
+						//<error code>
+				  			1: connection timeout.
+				  			2: wrong password.
+				  			3: cannot find the target AP.
+				  			4: connection failed.
+				  			others: unknown error occurred.
+AT+CIPV6=1					// At present, ESP-AT is mainly based on IPv4 network, supplemented by IPv6 network.To get an IPv6 address, we need to set it.
+AT+CIPSTA?					//Query the IP address of the ESP32 Station.
+
+---TCP/IP AT Commands---
+AT+CIPSTART					//Establish TCP Connection
+						//Single connection (AT+CIPMUX=0):
+				  			AT+CIPSTART=<"type">,<"remote host">,<remote port>[,<keep_alive>][,<"local IP">][,<timeout>]
+				  			Multiple Connections (AT+CIPMUX=1):
+				  			AT+CIPSTART=<link ID>,<"type">,<"remote host">,<remote port>[,<keep_alive>][,<"local IP">][,<timeout>]
+AT+CIPSTATE?					//Obtain the TCP/UDP/SSL Connection Information
+
+---TCP Client Commands---
+AT+CIPSTART="TCP","192.168.1.57",8080		//TCP Client olarak bağlan
+AT+CIPMODE=1					//Transparan mod aktif
+AT+CIPSEND					//Veri gönder
+"+++"						//Transparan komut göndermeyi bitir.
+AT+CIPCLOSE					//Bağlantıyı kes.
+
+---TCP Server Commands---
+AT+CIPMUX=1					//Birden fazla bağlantıya izin ver.
+AT+CIPSERVER=1,80				//80 numaralı TCP portunu aç
+AT+CIPSEND=0,10					//10 Byte veri gönder
+AT+CIPCLOSE=0					//bağlantıyı kes
+
+---UDP Client/Server Commands---
+AT+CIPSTART="UDP","192.168.1.57",1001,2001,0
+AT+CIPMODE=1					//Transparan mod aktif
+AT+CIPSEND					//Veri gönder
+"+++"						//Transparan komut göndermeyi bitir.
+AT+CIPCLOSE					//Bağlantıyı kes.
+
+
+
+
