@@ -1,7 +1,9 @@
+# MuhTas-1 Project PMOD ESP32
+
 ![image alt](https://gitlab.com/Training_Academic/muhtas1/200207032_NidaMert_Muhtas1/-/raw/main/Images/Muhtas_PMOD_ESP32_front.JPG?ref_type=heads)
 
 **Overview**
-
+---
 This project focuses on the design and testing of a custom 2-layer PMOD ESP32 module, closely resembling Digilent's PMOD ESP32 product. The PMOD ESP32 module provides Wi-Fi and Bluetooth connectivity, making it an ideal choice for embedded systems and IoT applications that require wireless communication. The module is designed to interface seamlessly with microcontrollers and FPGAs via the PMOD interface, enabling rapid prototyping and testing.
 
 The functionality of the designed PMOD ESP32 board will be verified by sending AT commands through an STM32 microcontroller.
@@ -14,11 +16,29 @@ This repository includes:
 The project serves as a practical solution for developers seeking an easy-to-use wireless module for their embedded systems.
 
 **Project Structre**
-
-- **Documentation/**: Contains connection diagrams and datasheets for reference.
-- **Firmware/ESP32-WROOM-32-AT-V3.4.0.0/**: Includes firmware files, user guides, release notes, and other documentation related to ESP32-WROOM-32-AT V3.4.0.0.
+---
+- **Documentation/**: Contains connection diagrams for STM32-PMOD ESP32 / PMOD ESP32-USB TTL Converter and datasheets for components.
+- **Firmware/ESP32-WROOM-32-AT-V3.4.0.0/**: Includes ESP32 Wroom 32 firmware files, user guides, release notes, and other documentation related to ESP32-WROOM-32-AT V3.4.0.0.
 - **Hardware Designs/**: Contains hardware design files for the PMOD ESP32 module in 2-layer and 4-layer configurations.
-- **STM32 Applications/**: Includes example applications and tests for STM32, such as;
-> Logic analyzer tests, STM32 UART AT commands
+- **Images/**: The photos of the PMOD ESP32 module before and after soldering, as well as the photos of the completed connections, are located in this folder.
+- **Library/**: The libraries of components that are necessary for the project but are not available in the KiCad library are located in this folder.
+- **STM32 Applications/**: Includes STM32 Cube IDE application and logic analyzer test results.
 - **.gitmodules**: Configuration file for Git submodules.
 - **README.md**: This file provides an overview of the project and instructions.
+
+**Connection Diagrams**
+---
+![image alt](https://gitlab.com/Training_Academic/muhtas1/200207032_NidaMert_Muhtas1/-/raw/main/Documentation/connection_diagrams/esp32_flashing_connection.png?ref_type=heads)
+![image alt](https://gitlab.com/Training_Academic/muhtas1/200207032_NidaMert_Muhtas1/-/raw/main/Documentation/connection_diagrams/uart_interface_connection.png?ref_type=heads)
+
+**References**
+---
+This project was developed based on the Digilent product: [[here](https://digilent.com/reference/pmod/pmodesp32/start?redirect=1)]. The design and implementation closely resemble this product, with some modifications.
+
+**Cloning the Project**
+---
+To clone this project, follow these steps:
+- First, make sure you have Git installed on your machine.
+- Open Git Bash.
+- Run the following command to clone the repository:
+> https://gitlab.com/Training_Academic/muhtas1/200207032_NidaMert_Muhtas1.git
