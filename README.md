@@ -41,4 +41,4 @@ To clone this project, follow these steps:
 - First, make sure you have Git installed on your machine.
 - Open Git Bash.
 - Run the following command to clone the repository:
-> https://gitlab.com/Training_Academic/muhtas1/200207032_NidaMert_Muhtas1.git
+> git clone https://gitlab.com/Training_Academic/muhtas1/200207032_NidaMert_Muhtas1.git
