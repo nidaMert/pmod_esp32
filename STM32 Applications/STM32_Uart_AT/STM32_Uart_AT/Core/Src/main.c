@@ -108,9 +108,16 @@ int main(void)
   // ATC yapılandırmasını başlat
   ATC_Init(&esp32, &huart3, RX_BUFFER_SIZE, "ESP32");
   // Wi-Fi Bağlantısı Kurma
+  ATC_SendReceive(&esp32, "AT+RST\r\n", 100, NULL, 100, 2, "\r\nOK\r\n", "\r\nERROR\r\n");
+  HAL_Delay(3000);
+  ATC_SendReceive(&esp32, "AT+CWQAP\r\n", 100, NULL, 100, 2, "\r\nOK\r\n", "\r\nERROR\r\n");
+  HAL_Delay(3000);
   ATC_SendReceive(&esp32, "AT+CWSTATE?\r\n", 100, NULL, 100, 3, "\r\n0\r\n", "\r\n1\r\n", "\r\n2\r\n");
+  HAL_Delay(3000);
   ATC_SendReceive(&esp32, "AT+CWMODE=1\r\n", 100, NULL, 100, 2, "\r\nOK\r\n", "\r\nERROR\r\n");
-  ATC_SendReceive(&esp32, "AT+CWJAP=\"TTNET_ZyXEL_WTPT\",\"eC0C3E841576e\"\r\n", 100, NULL, 100, 2, "\r\nOK\r\n", "\r\nERROR\r\n");
+  HAL_Delay(3000);
+  ATC_SendReceive(&esp32, "AT+CWJAP=\"FiberHGW_ZYB82A\",\"N3THkAdYRCPF\"\r\n", 100, NULL, 100, 2, "\r\nOK\r\n", "\r\nERROR\r\n");
+  HAL_Delay(3000);
   ATC_SendReceive(&esp32, "AT+CWJAP?\r\n", 100, NULL, 100, 2, "\r\nOK\r\n", "\r\nERROR\r\n");
   /* USER CODE END 2 */
 
