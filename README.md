@@ -29,6 +29,9 @@ The project serves as a practical solution for developers seeking an easy-to-use
 **Version Comparison**
 ---
 - Between v0.1 and v0.2 of the PCB, the only difference lies in the routing; in v0.2, the placement and number of vias were optimized to enhance signal integrity and streamline the overall layout.
+- **Branch Links of Versions** :  
+[PMOD_ESP32_2Layers_v0.1](https://gitlab.com/Training_Academic/muhtas1/200207032_NidaMert_Muhtas1/-/tree/PMOD_ESP32_2Layers_v0.1): Initial version of the PCB.  
+[PMOD_ESP32_2Layers_v0.2](https://gitlab.com/Training_Academic/muhtas1/200207032_NidaMert_Muhtas1/-/tree/PMOD_ESP32_2Layers_v0.2): Updated version with optimized routing.
 
 **Connection Diagrams**
 ---
