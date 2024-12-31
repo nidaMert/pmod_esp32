@@ -26,6 +26,10 @@ The project serves as a practical solution for developers seeking an easy-to-use
 - **.gitmodules**: Configuration file for Git submodules.
 - **README.md**: This file provides an overview of the project and instructions.
 
+**Version Comparison**
+---
+- Between v0.1 and v0.2 of the PCB, the only difference lies in the routing; in v0.2, the placement and number of vias were optimized to enhance signal integrity and streamline the overall layout.
+
 **Connection Diagrams**
 ---
 ![image alt](https://gitlab.com/Training_Academic/muhtas1/200207032_NidaMert_Muhtas1/-/raw/main/Documentation/connection_diagrams/esp32_flashing_connection.png?ref_type=heads)
