@@ -41,11 +41,3 @@ The project serves as a practical solution for developers seeking an easy-to-use
 **References**
 ---
 This project was developed based on the Digilent product: [[here](https://digilent.com/reference/pmod/pmodesp32/start?redirect=1)]. The design and implementation closely resemble this product, with some modifications.
-
-**Cloning the Project**
----
-To clone this project, follow these steps:
-- First, make sure you have Git installed on your machine.
-- Open Git Bash.
-- Run the following command to clone the repository:
-> git clone https://gitlab.com/Training_Academic/muhtas1/200207032_NidaMert_Muhtas1.git
