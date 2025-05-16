@@ -1,6 +1,6 @@
 # MuhTas-1 Project PMOD ESP32
 
-![image alt](https://gitlab.com/Training_Academic/muhtas1/200207032_NidaMert_Muhtas1/-/raw/main/Images/Muhtas_PMOD_ESP32_front.JPG?ref_type=heads)
+![image alt](Images/Muhtas_PMOD_ESP32_front.JPG)
 
 **Overview**
 ---
