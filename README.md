@@ -41,3 +41,13 @@ The project serves as a practical solution for developers seeking an easy-to-use
 **References**
 ---
 This project was developed based on the Digilent product: [[here](https://digilent.com/reference/pmod/pmodesp32/start?redirect=1)]. The design and implementation closely resemble this product, with some modifications.
+
+**Educational Use Only**
+
+All contents of this project are shared solely for individual learning and academic evaluation. Copying, redistribution, or reuse in other projects is **strictly prohibited**.
+
+**© Copyright**
+
+**Copyright (c) 2025 Nida Mert**
+
+All rights reserved. The source files, documentation, and visuals are provided strictly for educational and personal review purposes only.
